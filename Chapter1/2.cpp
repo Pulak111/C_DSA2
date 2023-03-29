@@ -4,7 +4,9 @@
 using namespace std;
 int main()
 {
-    string s = "Good Morning";
+    string s;
+    cout << "Enter the string: ";
+    cin >> s;
     int l1 = s.length();
     cout << "Length of string (s) : " << l1 << endl;
     int l2 = s.size();
