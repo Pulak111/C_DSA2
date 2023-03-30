@@ -1,7 +1,7 @@
 // 2D Array
 #include<iostream>
 using namespace std;
-void inp_arr(int arr[1000][1000], int, int);
+void inp_arr(int arr[1000][1000], int, int); // Array always goes in pass by refrence
 void pri_arr(int arr[1000][1000], int, int);
 int main()
 {
@@ -30,6 +30,7 @@ void pri_arr(int arr[1000][1000], int a, int b)
     {
         for(int j = 0; j < b; j++)
         {
+            arr[i][j] += 10;
             cout << arr[i][j] << " ";
         }
         cout << endl;
