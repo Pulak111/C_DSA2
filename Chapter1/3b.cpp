@@ -1,4 +1,4 @@
-// Pass by value
+// Pass By value
 #include<iostream>
 using namespace std;
 void modify(string s);
@@ -14,6 +14,6 @@ void modify(string s)
 {
     int l = s.length();
     s[l - 1] = 'A';
-    cout << "String inside main function : " << s << endl;
+    cout << "String inside modify function : " << s << endl;
 }
 

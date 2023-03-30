@@ -1,4 +1,4 @@
-// Call by Value
+// Call By Value
 #include<iostream>
 using namespace std;
 void modify(int);
@@ -16,5 +16,5 @@ void modify(int num)
     cout << "Num inside modify function : " << num << endl;
     num += 20;
     cout << "Num inside modify function : " << num << endl;
-    
+
 }
