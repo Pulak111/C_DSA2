@@ -1,4 +1,4 @@
-// 2D Array
+// 2D Array Using Function
 #include<iostream>
 using namespace std;
 void inp_arr(int arr[1000][1000], int, int); // Array always goes in pass by refrence
@@ -10,7 +10,7 @@ int main()
     cout << "Enter the number of rows & columns: ";
     cin >> row >> column;
     inp_arr(arr2, row, column);
-    cout << "The given 2D array is: " << endl;
+    cout << "The given 2D aray with modifiaction is: " << endl;
     pri_arr(arr2, row, column);
     return 0;   
 }
