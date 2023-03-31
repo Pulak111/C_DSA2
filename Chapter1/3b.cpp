@@ -6,7 +6,7 @@ int main()
 {
     string s;
     cout << "Enter the string :";
-    cin >> s; // Hello
+    getline(cin,s); // Hello
     modify(s);
     cout << "String inside main function : " << s << endl; // Hello
 }
