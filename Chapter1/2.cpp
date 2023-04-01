@@ -12,7 +12,7 @@ int main()
     cout << "Length of string (" << s << ") using length : " << l1 << endl;
     int l2 = s.size();
     cout << "Length of string (" << s << ") using size : " << l2 << endl;
-    cout << "Letter at last index : " << s[l1 - 1];
+    cout << "Letter at last index : " << s[l1 - 1] << endl;
     s[l1 - 1] = 'G';
     cout << "New string : " << s << endl; 
 }
