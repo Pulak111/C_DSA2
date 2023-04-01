@@ -32,5 +32,5 @@ void print(vector<int> div)
     for(int i = 0; i < static_cast<int>(div.size()); i++)
     {
         cout << div[i] << " ";
-    }
+    } 
 }
