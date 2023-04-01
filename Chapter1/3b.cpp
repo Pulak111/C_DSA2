@@ -14,6 +14,6 @@ void modify(string s)
 {
     int l = s.length();
     s[l - 1] = 'A';
-    cout << "String inside modify function : " << s << endl; // HellA
+    cout << "String inside modify function : " << s << endl; // HellA 
 }
 
