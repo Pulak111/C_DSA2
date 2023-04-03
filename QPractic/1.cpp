@@ -40,5 +40,5 @@ void idn_arr(int arr[100][100], int a)
     if(counter == 2 * a - 1)
         cout << "Identity Matrix";
     else
-        cout << "Not identity";
+        cout << "Not identity"; 
 }
