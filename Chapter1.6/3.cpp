@@ -1,4 +1,10 @@
 // Hashing integer using map
+// Time Complexity Both fetching & storing
+/*
+Best --> logN
+Avg -->  logN
+Worst -->logN
+*/
 #include<iostream>
 #include<map>
 #include<iterator>
