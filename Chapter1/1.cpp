@@ -1,4 +1,5 @@
 // 2D Array Using Function
+// Accessing an element which is not present give runtime error
 #include<iostream>
 using namespace std;
 void inp_arr(int arr[1000][1000], int, int); // Array always goes in pass by refrence
